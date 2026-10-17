@@ -1,0 +1,30 @@
+name: flutter_mvvm_framework
+description: A modular, robust, and batteries-included Model-View-ViewModel (MVVM) framework for Flutter with reactive properties, commands, REST client, auth, and pagination.
+version: 1.0.0
+homepage: https://github.com/AbdullahKashan/flutter_mvvm_framework
+repository: https://github.com/AbdullahKashan/flutter_mvvm_framework
+issue_tracker: https://github.com/AbdullahKashan/flutter_mvvm_framework/issues
+
+topics:
+  - mvvm
+  - state-management
+  - reactive
+  - rest-api
+  - architecture
+
+environment:
+  sdk: ^3.13.3
+  flutter: ">=1.17.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^1.6.0
+  http_parser: ^4.1.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
